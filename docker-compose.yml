@@ -1,0 +1,5 @@
+version: '3'
+services:
+  hello_world:
+    image: ubuntu
+    command: [/bin/echo, "Hello world! It looks like your machine can run Docker and docker-compose!"]
